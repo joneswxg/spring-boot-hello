@@ -18,7 +18,7 @@ public class Application {
 
     @RequestMapping("/test")
     public String test() {
-        return "test new API - new content";
+        return "test new API - new content jones";
     }
 
     @RequestMapping("/name/{name}")
